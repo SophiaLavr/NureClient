@@ -4,7 +4,7 @@ from pathlib import Path
 from gui.utils_ui import PlaceholderEntry
 
 OUTPUT_PATH = Path(__file__).parent
-ASSETS_PATH = OUTPUT_PATH / Path("C:/Users/Personal Computer/PycharmProjects/Client/gui/build/assets1/Authorizationframe")
+ASSETS_PATH = OUTPUT_PATH / Path("./build/assets1/Authorizationframe")
 
 def relative_to_assets(path: str) -> Path:
     return ASSETS_PATH / Path(path)
